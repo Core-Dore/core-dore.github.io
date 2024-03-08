@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+:root {
+    --display-large-font-size : 57px;
+    --display-large-line-height : 64px;
+    --display-large-letter-spacing : -0.25px;
+
+    --headline-large-font-size : 32px;
+    --headline-large-line-height : 40px;
+    --headline-large-letter-spacing : 0px;
+
+    --color-outline-variant : #BEC9C5; 
+}
+
+@media only screen and (min-width : 768px) {
+
+    /* Font settings */
+
+    .lg-font-display-large {
+        font-size: var(--display-large-font-size);
+        letter-spacing: var(--display-large-letter-spacing);
+        line-height: var(--display-large-line-height);
+    }
+
+    .lg-font-headline-large {
+        font-size: var(--headline-large-font-size);
+        letter-spacing: var(--headline-large-letter-spacing);
+        line-height: var(--headline-large-line-height);
+    }
+
+    .lg-font-display-regular {
+        font-family: "Source Serif 4", serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .lg-font-display-bold {
+        font-family: "Source Serif 4", serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+    }
+
+    /* background color settings */
+
+    .lg-bg-outline-variant {
+        background-color: var(--color-outline-variant); 
+    }
+
+    /* padding vertical */
+
+    .lg-pv-16px {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .lg-pv-48px {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+    .lg-pv-36px {
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+
+    /* padding horizontal */
+
+    .lg-ph-16px {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    /* height settings */
+
+    .lg-h-1px {
+        height: 1px;
+    }
+
+    /* width settings */
+
+    .lg-w-66-percent {
+        width: 66%;
+    }
+
+    /* margin settings */
+
+    .lg-mx-auto {
+        margin: 0px auto;
+    }
+
+    /* text center */
+
+    .lg-text-center {
+        text-align: center;
+    }
+
+    
+
+
+    /* flex settings */
+
+    .lg-flex {
+        display: flex;
+    }
+
+    .lg-flex-row {
+        flex-direction: row;
+    }
+
+    .lg-align-end {
+        align-items: end;
+    }
+
+    .lg-justify-end {
+        justify-content: end;
+    }
+}
